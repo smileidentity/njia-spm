@@ -1,67 +1,33 @@
 # njia, the Swift package
 
-![njia — Smile ID's flow navigation engine](assets/readme/banner.svg)
-
-**The Swift Package Manager distribution of njia, the flow navigation engine behind the Smile ID
-SDKs.** This repository holds the `Package.swift` manifest, and each release carries the
-xcframeworks it points at.
-
-An SDK describes its flow as a graph of steps. The engine keeps the back stack as plain state and
-decides where next, back and skip go, and the host only draws the entries the engine holds.
+The Swift Package Manager distribution of **njia**, the flow navigation engine behind the Smile ID
+SDKs.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/readme/hero-dark.svg">
-  <img alt="A step sends next from its own entry and njia pushes the step after it, while the host draws the top entry with a fade and a short slide. A late next from entry 1, which is no longer on top, is stale and moves nothing. With supportingSidePending set, the document segment repeats for the back, and back from entry 3 pops it." src="assets/readme/hero-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/readme/spm-install-dark.svg">
+  <img alt="Three steps. Add the package github.com/smileidentity/njia-spm in Xcode at an exact version. Tick the Njia product; NjiaUI is the SwiftUI host; NjiaTesting is for tests only. Then import Njia, and the build succeeds." src="assets/readme/spm-install-light.svg">
 </picture>
-
-<p align="center"><sub>Each intent names the entry it came from. A late <code>next</code> from a covered entry is stale and moves nothing; a fact repeats the document segment for the back; <code>back</code> pops.</sub></p>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/readme/facts-dark.svg">
-  <img alt="One pure reducer in both native cores. 32 scenarios, run on all four hosts by Maestro. No dependencies beyond the standard library. Line coverage of 95% or more on every package." src="assets/readme/facts-light.svg">
-</picture>
-
-> [!IMPORTANT]
-> No release yet. The snapshots on [Releases](https://github.com/smileidentity/njia-spm/releases)
-> are for testing: pin one exactly, as below. njia's first release replaces this note.
 
 ## Install
 
-In Xcode, choose **File → Add Package Dependencies…** and enter
-`https://github.com/smileidentity/njia-spm`. Or add it to your own `Package.swift`:
-
 ```swift
-dependencies: [
-    .package(url: "https://github.com/smileidentity/njia-spm", exact: "0.0.1-SNAPSHOT.4")
-]
+.package(url: "https://github.com/smileidentity/njia-spm", exact: "0.0.1-SNAPSHOT.4")
 ```
 
-Pin it `exact`. The Flutter plugin `usesmileid_njia` and the React Native package `@smileid/njia`
-each pin this package exactly at their own version, so an app that carries one of them and the
-native SDK resolves one `Njia.framework`.
+No release yet, so pin a snapshot from Releases until 0.0.1. Pin it exactly. The Flutter and React Native packages pin this one at their own version, so an app
+that carries one of them and the native SDK resolves one `Njia`.
 
-## Products
-
-| Product | What it holds |
+| Product | For |
 |---|---|
-| `Njia` | The graph, state, intents and effects, the reducer, `NjiaEngine`, the delivery gate and the codec, behind the `NjiaKit` front door. Foundation only |
-| `NjiaUI` | `NjiaHost`, the SwiftUI host, and `NjiaPreview` for `#Preview`s |
-| `NjiaTesting` | `FakeNjiaNavigator` and `RecordingNjiaListener`, for test targets only |
+| `Njia` | the engine. Start here |
+| `NjiaUI` | the SwiftUI host |
+| `NjiaTesting` | test targets only |
 
-| iOS | Swift tools | Built with | Dependencies |
-|---|---|---|---|
-| 15.0 or later | 6.0 or later | Xcode 26.4 | Foundation; `NjiaUI` adds SwiftUI |
+iOS 15 or later · Swift tools 6.0 · built with Xcode 26.4 · no third-party dependencies
 
 ## Releases
 
-Each [release](https://github.com/smileidentity/njia-spm/releases) carries the three xcframeworks
-with their SHA-256 sums, and its notes list what changed. A snapshot is a prerelease named
-`x.y.z-SNAPSHOT.N`, for testing only.
+[Releases](https://github.com/smileidentity/njia-spm/releases) lists every version with its
+xcframeworks and their SHA-256 sums. A snapshot, `x.y.z-SNAPSHOT.N`, is for testing only.
 
-> [!NOTE]
-> Each njia release writes this README, its figures and the manifest, so a change made here is
-> replaced by the next one.
-
-## License
-
-MIT. See [LICENSE](LICENSE).
+MIT licensed. See [LICENSE](LICENSE).
