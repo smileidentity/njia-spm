@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 236" width="960" height="236" role="img" aria-labelledby="title desc">
+<title id="title">Install njia-spm</title>
+<desc id="desc">Three steps. Add the package github.com/smileidentity/njia-spm in Xcode at an exact version. Tick the Njia product; NjiaUI is the SwiftUI host; NjiaTesting is for tests only. Then import Njia, and the build succeeds.</desc>
+<style>text{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;fill:#9198a1;font-size:13px}.mono{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace}.ink{fill:#e6edf3}.b{font-weight:600}.eyebrow{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;font-size:12px;letter-spacing:.08em;fill:#9198a1}.still{display:none}@media (prefers-reduced-motion:reduce){[class^=m],[class*=' m']{animation:none!important}.moving{display:none}.still{display:inline}}</style>
+<style>@keyframes ka0{0.00%{opacity:0}2.22%{opacity:1}26.67%{opacity:1}30.00%{opacity:0}100%{opacity:0}}.m-a0{animation:ka0 9.0s ease-in-out infinite both;opacity:0}@keyframes ka1{0.00%{opacity:0}31.11%{opacity:0}33.33%{opacity:1}55.56%{opacity:1}58.89%{opacity:0}100%{opacity:0}}.m-a1{animation:ka1 9.0s ease-in-out infinite both;opacity:0}@keyframes ka2{0.00%{opacity:0}60.00%{opacity:0}62.22%{opacity:1}91.11%{opacity:1}94.44%{opacity:0}100%{opacity:0}}.m-a2{animation:ka2 9.0s ease-in-out infinite both;opacity:0}@keyframes kurl{0.00%{transform:scaleX(1)}3.33%{transform:scaleX(1)}17.78%{transform:scaleX(0)}95.56%{transform:scaleX(0)}98.89%{transform:scaleX(1)}100%{transform:scaleX(1)}}.m-url{transform-box:fill-box;transform-origin:right;animation:kurl 9.0s linear infinite both;transform:scaleX(0)}@keyframes kchip{0.00%{opacity:0}18.89%{opacity:0}21.11%{opacity:1}95.56%{opacity:1}98.89%{opacity:0}100%{opacity:0}}.m-chip{animation:kchip 9.0s ease-in-out infinite both}@keyframes kpress{0.00%{transform:scale(1)}22.22%{transform:scale(1)}23.33%{transform:scale(.94)}25.00%{transform:scale(1)}100%{transform:scale(1)}}.m-press{transform-box:fill-box;transform-origin:center;animation:kpress 9.0s ease-in-out infinite both}@keyframes ktick{0.00%{opacity:0}37.78%{opacity:0}40.00%{opacity:1}95.56%{opacity:1}98.89%{opacity:0}100%{opacity:0}}.m-tick{animation:ktick 9.0s ease-in-out infinite both}@keyframes kimp{0.00%{transform:scaleX(1)}62.22%{transform:scaleX(1)}72.22%{transform:scaleX(0)}95.56%{transform:scaleX(0)}98.89%{transform:scaleX(1)}100%{transform:scaleX(1)}}.m-imp{transform-box:fill-box;transform-origin:right;animation:kimp 9.0s linear infinite both;transform:scaleX(0)}@keyframes kbuilt{0.00%{opacity:0}76.67%{opacity:0}78.89%{opacity:1}95.56%{opacity:1}98.89%{opacity:0}100%{opacity:0}}.m-built{animation:kbuilt 9.0s ease-in-out infinite both}@keyframes kar0{0.00%{opacity:0;transform:translateX(0)}26.67%{opacity:0;transform:translateX(0)}27.78%{opacity:1;transform:translateX(0)}32.22%{opacity:0;transform:translateX(26px)}100%{opacity:0;transform:translateX(26px)}}.m-ar0{animation:kar0 9.0s ease-out infinite both;opacity:0}@keyframes kar1{0.00%{opacity:0;transform:translateX(0)}55.56%{opacity:0;transform:translateX(0)}56.67%{opacity:1;transform:translateX(0)}61.11%{opacity:0;transform:translateX(26px)}100%{opacity:0;transform:translateX(26px)}}.m-ar1{animation:kar1 9.0s ease-out infinite both;opacity:0}</style>
+<rect x="0.5" y="0.5" width="959" height="235" rx="12" fill="#151b23" stroke="#3d444d"/>
+<rect x="24" y="28" width="280" height="180" rx="10" fill="#0d1117" stroke="#3d444d"/>
+<rect class="m-a0" x="24" y="28" width="280" height="180" rx="10" fill="none" stroke="#59b6bf" stroke-width="2"/>
+<circle cx="48" cy="54" r="11" fill="#12302f"/>
+<text x="48" y="58.5" text-anchor="middle" class="b" style="font-size:12px;fill:#59b6bf">1</text>
+<text x="68" y="58.5" class="eyebrow">ADD THE PACKAGE</text>
+<rect x="340" y="28" width="280" height="180" rx="10" fill="#0d1117" stroke="#3d444d"/>
+<rect class="m-a1" x="340" y="28" width="280" height="180" rx="10" fill="none" stroke="#59b6bf" stroke-width="2"/>
+<circle cx="364" cy="54" r="11" fill="#12302f"/>
+<text x="364" y="58.5" text-anchor="middle" class="b" style="font-size:12px;fill:#59b6bf">2</text>
+<text x="384" y="58.5" class="eyebrow">PICK THE PRODUCT</text>
+<rect x="656" y="28" width="280" height="180" rx="10" fill="#0d1117" stroke="#3d444d"/>
+<rect class="m-a2" x="656" y="28" width="280" height="180" rx="10" fill="none" stroke="#59b6bf" stroke-width="2"/>
+<circle cx="680" cy="54" r="11" fill="#12302f"/>
+<text x="680" y="58.5" text-anchor="middle" class="b" style="font-size:12px;fill:#59b6bf">3</text>
+<text x="700" y="58.5" class="eyebrow">IMPORT IT</text>
+<rect x="40" y="82" width="248" height="30" rx="6" fill="#151b23" stroke="#3d444d"/>
+<text x="50" y="101.5" class="mono ink" style="font-size:10.5px">github.com/smileidentity/njia-spm</text>
+<rect class="m-url" x="48" y="84" width="238" height="26" fill="#151b23" transform="scale(0 1)"/>
+<text x="40" y="136" style="font-size:12px">Dependency rule</text>
+<g class="m-chip"><rect x="146" y="123" width="106" height="20" rx="10" fill="#12302f"/><text x="199" y="137" text-anchor="middle" style="font-size:11.5px;fill:#59b6bf">Exact Version</text></g>
+<g class="m-press"><rect x="168" y="164" width="120" height="28" rx="6" fill="#59b6bf"/><text x="228" y="182.5" text-anchor="middle" class="b" style="font-size:12px;fill:#0d1117">Add Package</text></g>
+<rect x="356" y="84" width="248" height="30" rx="6" fill="#151b23" stroke="#3d444d"/>
+<rect x="366" y="92" width="14" height="14" rx="3" fill="none" stroke="#9198a1"/>
+<g class="m-tick"><rect x="366" y="92" width="14" height="14" rx="3" fill="#59b6bf"/><path d="M369.5 99 l3 3 l5.5 -6" fill="none" stroke="#0d1117" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="390" y="103.5" class="mono ink b" style="font-size:12px">Njia</text>
+<text x="594" y="103.5" text-anchor="end" style="font-size:11px">start here</text>
+<rect x="356" y="122" width="248" height="30" rx="6" fill="#0d1117" stroke="#3d444d"/>
+<rect x="366" y="130" width="14" height="14" rx="3" fill="none" stroke="#9198a1"/>
+<text x="390" y="141.5" class="mono" style="font-size:12px">NjiaUI</text>
+<text x="594" y="141.5" text-anchor="end" style="font-size:11px">SwiftUI host</text>
+<rect x="356" y="160" width="248" height="30" rx="6" fill="#0d1117" stroke="#3d444d"/>
+<rect x="366" y="168" width="14" height="14" rx="3" fill="none" stroke="#9198a1"/>
+<text x="390" y="179.5" class="mono" style="font-size:12px">NjiaTesting</text>
+<text x="594" y="179.5" text-anchor="end" style="font-size:11px">for tests only</text>
+<rect x="672" y="82" width="248" height="74" rx="6" fill="#151b23" stroke="#3d444d"/>
+<text x="684" y="104" class="mono" style="font-size:11px">1</text>
+<text x="684" y="126" class="mono" style="font-size:11px">2</text>
+<text x="702" y="104" class="mono" style="font-size:12px;fill:#59b6bf">import SwiftUI</text>
+<text x="702" y="126" class="mono ink b" style="font-size:12px">import Njia</text>
+<rect class="m-imp" x="700" y="112" width="214" height="20" fill="#151b23" transform="scale(0 1)"/>
+<g class="m-built"><rect x="672" y="168" width="146" height="24" rx="12" fill="#3fb950" opacity=".14"/><path d="M686 180 l4 4 l7 -8" fill="none" stroke="#3fb950" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text x="704" y="184.5" class="b" style="font-size:12px;fill:#3fb950">Build Succeeded</text></g>
+<path d="M306 118 h28" stroke="#3d444d" stroke-width="2" fill="none"/><path d="M330 112 l6 6 l-6 6" stroke="#3d444d" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<circle class="m-ar0" cx="308" cy="118" r="4" fill="#59b6bf"/>
+<path d="M622 118 h28" stroke="#3d444d" stroke-width="2" fill="none"/><path d="M646 112 l6 6 l-6 6" stroke="#3d444d" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<circle class="m-ar1" cx="624" cy="118" r="4" fill="#59b6bf"/>
+</svg>
