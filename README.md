@@ -31,7 +31,7 @@ Or add it to your own `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/smileidentity/njia-spm", exact: "0.0.1-SNAPSHOT.3")
+    .package(url: "https://github.com/smileidentity/njia-spm", exact: "0.0.1-SNAPSHOT.4")
 ]
 ```
 
