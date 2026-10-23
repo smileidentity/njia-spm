@@ -22,18 +22,18 @@ let package = Package(
   targets: [
     .binaryTarget(
       name: "Njia",
-      url: "https://github.com/smileidentity/njia-spm/releases/download/v0.0.1-SNAPSHOT.7/Njia.xcframework.zip",
-      checksum: "b876b40500180c2d53defbd689eb559c32a6192823fbc64cfdd8bc01b04bc919"
+      url: "https://github.com/smileidentity/njia-spm/releases/download/v0.0.1-SNAPSHOT.8/Njia.xcframework.zip",
+      checksum: "07a3e7b31b72cd0956c94e3fe8f2ba1c45153deac35c7613b7a6826e2963a88b"
     ),
     .binaryTarget(
       name: "NjiaUI",
-      url: "https://github.com/smileidentity/njia-spm/releases/download/v0.0.1-SNAPSHOT.7/NjiaUI.xcframework.zip",
-      checksum: "0453460cf046d3b50516ca408bbcab2722c0369d3fc6194670cea2135ee0b614"
+      url: "https://github.com/smileidentity/njia-spm/releases/download/v0.0.1-SNAPSHOT.8/NjiaUI.xcframework.zip",
+      checksum: "86a450b921e5f06439b0bad31ce63190dd70285e7ab7b355839a660a740e12f9"
     ),
     .binaryTarget(
       name: "NjiaTesting",
-      url: "https://github.com/smileidentity/njia-spm/releases/download/v0.0.1-SNAPSHOT.7/NjiaTesting.xcframework.zip",
-      checksum: "8a6a94e601f3c47c74f28eda541ed4378ece64f878c5bb4128a6a4831f5bcfa2"
+      url: "https://github.com/smileidentity/njia-spm/releases/download/v0.0.1-SNAPSHOT.8/NjiaTesting.xcframework.zip",
+      checksum: "99145e2dd0aafc3d8aca7dfc6969d541363fc3fde91aded3781eec4318935a7a"
     ),
   ]
 )
