@@ -11,7 +11,7 @@ SDKs.
 ## Install
 
 ```swift
-.package(url: "https://github.com/smileidentity/njia-spm", exact: "0.0.1-SNAPSHOT.10")
+.package(url: "https://github.com/smileidentity/njia-spm", exact: "0.0.1-SNAPSHOT.11")
 ```
 
 Pin it exactly. The Flutter and React Native packages pin this one at their own version, so an app
@@ -23,7 +23,7 @@ that carries one of them and the native SDK resolves one `Njia`.
 | `NjiaUI` | the SwiftUI host |
 | `NjiaTesting` | test targets only |
 
-iOS 15 or later · Swift tools 6.0 · built with Xcode 26.4 · no third-party dependencies
+iOS 15 or later · Swift tools 6.0 · built with Xcode 27.1 · no third-party dependencies
 
 ## Releases
 
