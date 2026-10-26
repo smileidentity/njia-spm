@@ -11,11 +11,12 @@ SDKs.
 ## Install
 
 ```swift
-.package(url: "https://github.com/smileidentity/njia-spm", exact: "0.0.1-SNAPSHOT.4")
+.package(url: "https://github.com/smileidentity/njia-spm", exact: "0.0.1-SNAPSHOT.11")
 ```
 
-No release yet, so pin a snapshot from Releases until 0.0.1. Pin it exactly. The Flutter and React Native packages pin this one at their own version, so an app
-that carries one of them and the native SDK resolves one `Njia`.
+Pin it exactly. An app that also uses a Smile ID SDK takes the version that SDK pins, or leaves
+njia-spm out and lets the SDK bring it in. The Flutter and React Native packages pin this one at
+their own version, so an app that carries one of them and the native SDK resolves one `Njia`.
 
 | Product | For |
 |---|---|
@@ -23,11 +24,12 @@ that carries one of them and the native SDK resolves one `Njia`.
 | `NjiaUI` | the SwiftUI host |
 | `NjiaTesting` | test targets only |
 
-iOS 15 or later · Swift tools 6.0 · built with Xcode 26.4 · no third-party dependencies
+iOS 15 or later · Swift tools 6.0 · built with Xcode 27.1 · no third-party dependencies
 
 ## Releases
 
 [Releases](https://github.com/smileidentity/njia-spm/releases) lists every version with its
-xcframeworks and their SHA-256 sums. A snapshot, `x.y.z-SNAPSHOT.N`, is for testing only.
+xcframeworks and their SHA-256 sums. A snapshot, `x.y.z-SNAPSHOT.N`, is for testing only, and the
+`snapshot` branch follows the newest.
 
 MIT licensed. See [LICENSE](LICENSE).
