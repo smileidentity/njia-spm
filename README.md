@@ -11,7 +11,7 @@ SDKs.
 ## Install
 
 ```swift
-.package(url: "https://github.com/smileidentity/njia-spm", exact: "0.0.1-SNAPSHOT.11")
+.package(url: "https://github.com/smileidentity/njia-spm", exact: "0.0.1-SNAPSHOT.12")
 ```
 
 Pin it exactly. The Flutter and React Native packages pin this one at their own version, so an app
